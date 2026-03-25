@@ -1,21 +1,205 @@
 <!DOCTYPE html>
-<html>
-    
-    <title></title>
-    <head>
-        <h1>about me</h1>
-    </head>
-    <body>
-        <p>my name is mason from web development</p>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-        </ul>
-    <ol>
-        <li>python</li>
-        <li>java</li>
-    </ol>
-    <img src=" alttps://images.pexels.com/photos/36400775/pexels-photo-36400775.jpeg"
-</html>t="" height="100px" width="100px">
-    </body>h
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mason Rakita Business | Equipment & Technology Solutions Lagos</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--primary:#0b3d2e;
+--accent:#d4af37;
+--dark:#06241b;
+--light:#f6f8f9;
+}
+*{box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;margin:0;background:linear-gradient(rgba(246,248,249,.95),rgba(246,248,249,.95)),url('https://images.pexels.com/photos/36427216/pexels-photo-36427216.jpeg');background-size:cover;background-attachment:fixed;color:#333;line-height:1.6}
+
+.topbar{background:#06241b;color:#fff;padding:8px 20px;text-align:center;font-size:14px}
+
+nav{background:rgba(11,61,46,.97);padding:18px;position:sticky;top:0;z-index:1000}
+nav ul{list-style:none;display:flex;justify-content:center;gap:55px;margin:0;padding:0}
+nav a{color:#fff;text-decoration:none;font-weight:600}
+nav a:hover{color:var(--accent)}
+
+header{background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.85)),url('https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg');background-size:cover;background-position:center;color:#fff;padding:200px 20px;text-align:center}
+header h1{font-size:60px;margin:0}
+header p{font-size:22px;margin-top:10px}
+
+section{padding:100px 20px;max-width:1200px;margin:auto}
+h2{text-align:center;color:var(--primary);font-size:40px;margin-bottom:50px}
+
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:#fff;padding:40px;border-radius:15px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.gallery img{width:100%;height:230px;object-fit:cover;border-radius:12px}
+
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.price-card{background:#fff;padding:40px;border-radius:15px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+.price{font-size:40px;color:var(--accent)}
+
+form{background:#fff;padding:40px;border-radius:15px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+input,textarea{width:100%;padding:14px;margin:10px 0;border-radius:8px;border:1px solid #ddd}
+button{background:var(--primary);color:#fff;padding:15px;border:none;border-radius:8px;cursor:pointer}
+
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px;border-radius:50px;text-decoration:none}
+
+footer{background:#081d16;color:#fff;text-align:center;padding:50px}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+📞 0140171809 | ✉ rakitamason@gmail.com | Lagos, Nigeria
+</div>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#technology">Technology</a></li>
+<li><a href="#equipment">Equipment</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<header id="home">
+<h1>Mason Rakita Business</h1>
+<p>Heavy Equipment, Construction Technology & BIM Solutions</p>
+</header>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="features">
+<div class="card"><h3>Heavy Machinery Rental</h3><p>Excavators, bulldozers, cranes and loaders for major construction projects.</p></div>
+<div class="card"><h3>Construction Solutions</h3><p>End-to-end support for infrastructure, building and industrial projects.</p></div>
+<div class="card"><h3>Engineering Support</h3><p>Professional technical support for planning and execution.</p></div>
+</div>
+</section>
+
+<section id="technology">
+<h2>Modern Technology</h2>
+<div class="features">
+<div class="card"><h3>BIM (Building Information Modeling)</h3><p>Advanced BIM systems for efficient project planning and collaboration.</p></div>
+<div class="card"><h3>3D Modeling</h3><p>Realistic 3D visualization for construction and architectural design.</p></div>
+<div class="card"><h3>Digital Project Management</h3><p>Smart tools for tracking progress, cost, and timelines.</p></div>
+</div>
+</section>
+
+<section id="equipment">
+<h2>Our Equipment</h2>
+<div class="gallery">
+<img src="https://images.pexels.com/photos/12495616/pexels-photo-12495616.jpeg">
+<img src="https://images.pexels.com/photos/4709369/pexels-photo-4709369.jpeg">
+<img src="https://images.pexels.com/photos/7286014/pexels-photo-7286014.jpeg">
+<img src="https://images.pexels.com/photos/5240544/pexels-photo-5240544.jpeg">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<form action="mailto:rakitamason@gmail.com" method="POST">
+<input type="text" placeholder="Name" required>
+<input type="tel" placeholder="Phone" required>
+<textarea placeholder="Your Inquiry"></textarea>
+<button>Send Request</button>
+</form>
+</section>
+
+<section id="process">
+<h2>How We Work</h2>
+<div class="features">
+<div class="card">
+<h3>1. Consultation</h3>
+<p>We begin by understanding your project requirements, scope, and objectives through detailed consultation.</p>
+</div>
+
+<div class="card">
+<h3>2. Planning & Design</h3>
+<p>Using BIM and 3D modeling, we create accurate designs and project simulations for efficiency and clarity.</p>
+</div>
+
+<div class="card">
+<h3>3. Execution</h3>
+<p>Our team deploys heavy machinery and skilled professionals to execute the project with precision.</p>
+</div>
+
+<div class="card">
+<h3>4. Monitoring</h3>
+<p>We use digital tools to track progress, manage timelines, and ensure quality control.</p>
+</div>
+
+<div class="card">
+<h3>5. Delivery</h3>
+<p>Project completion with full client satisfaction, meeting all standards and expectations.</p>
+</div>
+</div>
+</section>
+
+<section id="blog">
+<h2>News & Insights</h2>
+<div class="features">
+
+<div class="card">
+<h3>Adoption of BIM in Modern Construction</h3>
+<p>BIM technology is transforming how construction projects are planned and executed, improving efficiency and reducing costs.</p>
+<small>March 2026</small>
+</div>
+
+<div class="card">
+<h3>Heavy Machinery Trends in Africa</h3>
+<p>The demand for advanced heavy equipment continues to grow as infrastructure development expands across Africa.</p>
+<small>February 2026</small>
+</div>
+
+<div class="card">
+<h3>3D Modeling in Engineering Projects</h3>
+<p>3D modeling enables engineers to visualize complex structures before construction begins, minimizing risks.</p>
+<small>January 2026</small>
+</div>
+
+</div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/254140171809">WhatsApp</a>
+
+<footer>
+<h3>Mason Rakita Business</h3>
+<p>Equipment & Technology Company</p>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+<section id="team">
+<h2>Leadership & Team</h2>
+<div class="features">
+<div class="card">
+<h3>Eng. Mason Rakita</h3>
+<p><strong>Founder & CEO</strong></p>
+<p>Visionary leader with expertise in construction engineering, heavy equipment operations, and project management across large-scale developments.</p>
+</div>
+
+<div class="card">
+<h3>Project Director</h3>
+<p><strong>Head of Operations</strong></p>
+<p>Oversees all field operations, ensuring projects are delivered on time, within budget, and to the highest quality standards.</p>
+</div>
+
+<div class="card">
+<h3>Technology Lead</h3>
+<p><strong>BIM & Digital Systems Manager</strong></p>
+<p>Specialist in BIM, 3D modeling, and digital construction technologies, driving innovation and efficiency.</p>
+</div>
+
+<div class="card">
+<h3>Equipment Manager</h3>
+<p><strong>Fleet & Machinery Supervisor</strong></p>
+<p>Responsible for maintenance, deployment, and optimization of all heavy machinery and equipment.</p>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
